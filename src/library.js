@@ -5,6 +5,7 @@ const FINE_PER_DAY = 2;
 
 // Due date = issue date + 14 days (UTC, so time zones cannot shift the day).
 function calculateDueDate(issueDate, loanDays = LOAN_DAYS) {
+  if (loanDays < 0) throw new Error('Loan days cannot be negative');
   const d = new Date(issueDate);
   if (Number.isNaN(d.getTime())) throw new Error('Invalid issue date');
   d.setUTCDate(d.getUTCDate() + loanDays);
