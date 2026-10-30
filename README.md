@@ -8,7 +8,7 @@ It contains two Library Automation System rules: the 14-day due date and the Rs.
 npm run build
 npm test
 ```
-Requires Node.js 18 or newer (tested on Node 22).
+Requires Node.js 18 or newer and npm (tested on Node 22).
 
 ## Structure
 - `src/library.js` - application code
