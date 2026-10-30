@@ -22,3 +22,5 @@ test('Rs.2 per day when returned late', () => {
 test('invalid date throws an error', () => {
   assert.throws(() => calculateDueDate('not-a-date'), /Invalid/);
 });
+
+test('negative loan days throws an error', () => { assert.throws(() => calculateDueDate('2026-10-01', -1), /negative/); });
