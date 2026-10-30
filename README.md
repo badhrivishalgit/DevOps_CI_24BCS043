@@ -14,3 +14,5 @@ Requires Node.js 18 or newer. There are no external dependencies.
 - `src/library.js` - application code
 - `tests/library.test.js` - tests (Node built-in test runner)
 - `Jenkinsfile` - CI pipeline: Checkout, Build, Test, Result
+
+Late fine rule: Rs.2 per day after the due date.
