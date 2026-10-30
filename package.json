@@ -1,0 +1,11 @@
+{
+  "name": "devops-ci-24bcs043",
+  "version": "1.0.0",
+  "description": "Library fine and due-date rules used to practise Git, GitHub and Jenkins CI",
+  "main": "src/library.js",
+  "scripts": {
+    "build": "node --check src/library.js",
+    "test": "node --test"
+  },
+  "license": "ISC"
+}
